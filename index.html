@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Animated Web Design Portfolio</title>
+ <link rel="stylesheet" href="./style.css ">
+</head>
+<body>
+
+<!-- rotating rings -->
+<div class="particle"></div>
+<div class="particle"></div>
+<div class="particle"></div>
+
+<!-- glowing blobs -->
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+
+<!-- main glass card -->
+<div class="card">
+  <h1> Web Design Studio</h1>
+  <div class="typing">HTML • CSS • JavaScript • Animation</div>
+
+  <div class="code-section">
+    <div class="panel">
+      <pre>
+<span class="comm">// HTML code</span>
+<span class="kw">&lt;div</span> <span class="tag">class</span>=<span class="str">"hero"</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;h1&gt;</span>Hello World<span class="kw">&lt;/h1&gt;</span>
+<span class="kw">&lt;/div&gt;</span>
+      </pre>
+      <div class="label">HTML</div>
+    </div>
+
+    <div class="panel">
+      <pre>
+<span class="comm">/* CSS animation */</span>
+<span class="kw">@keyframes</span> <span class="tag">float</span>{
+  0%{<span class="kw">transform</span>:<span class="str">translateY(0)</span>;}
+  50%{<span class="kw">transform</span>:<span class="str">translateY(-10px)</span>;}
+}
+      </pre>
+      <div class="label">CSS</div>
+    </div>
+
+    <div class="panel">
+      <pre>
+<span class="comm">// JavaScript</span>
+<span class="kw">let</span> light = <span class="str">true</span>;
+<span class="kw">function</span> <span class="tag">toggle</span>() {
+  light = !light;
+  console.log(<span class="str">'Light mode:'</span>, light);
+}
+      </pre>
+      <div class="label">JS</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
